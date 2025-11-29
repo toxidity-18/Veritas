@@ -5,6 +5,21 @@ It aims to make digital justice and support accessible, especially for women and
 
 ---
 
+## 💡 Why Veritas
+
+Online abuse, harassment, doxxing, blackmail and other forms of digital violence are rapidly increasing — especially against women and girls. Survivors often don’t know where to start, don’t have the technical know‑how to organize evidence properly, or don’t know which resources to turn to for help.  
+
+Veritas aims to solve this by offering:
+
+- Easy file upload (images, videos, audio, documents)  
+- Automated (or simulated) text extraction and content analysis  
+- Structured storage of evidence + metadata in a secure backend  
+- A simple case‑file system for organizing evidence by “case”  
+- A “SupportBridge” resource directory to connect survivors with help (police, medical, counseling, legal, etc.)  
+- A safety‑first design (privacy, optional anonymity, potential “quick hide” / panic features)  
+
+---
+
 ## ✅ Features (MVP & Planned)
 
 - Upload evidence files (images, documents, audio/video)  
