@@ -35,8 +35,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const signUp = async (email: string, password: string) => {
-    const { data, error } = await supabase.auth.signUp({ email, password });
-    if (error) throw error;
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: {
+      emailRedirectTo: "http://localhost:5173"
+    }
+  });
+  
+  if (error) throw error;
 
     if (data.user) {
       const { error: profileError } = await supabase.from('profiles').insert({
