@@ -18,9 +18,11 @@ export function Auth() {
     try {
       if (isSignUp) {
         await signUp(email, password);
+        setError("Check your email to verify your account before signing in.");
       } else {
         await signIn(email, password);
       }
+
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
     } finally {
