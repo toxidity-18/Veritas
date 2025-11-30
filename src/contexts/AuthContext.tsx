@@ -68,7 +68,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       email,
       password,
       options: {
-        emailRedirectTo: "http://localhost:5173"
+        emailRedirectTo: "https://veritas-henna.vercel.app"
       }
     });
 
